@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    background-color: papayawhip;
+}
+
+body{
+    margin: 5% 5% 0 5%;
+}
+
+.name-card{
+    text-align: center;
+    font-family: 'Mooli', sans-serif;
+}
+
+h2{
+    font-family: 'Mooli', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+}
+
+table, th, td{
+    border: 1px solid;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+@media screen and (max-width: 600px){
+    table{
+        width: 70%;
+        margin-left: 2%;
+    }
+}
